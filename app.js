@@ -1,4 +1,4 @@
-loginWindow = window.open("https://ericnguyen123.github.io/PTITCode/", "_self");
+let loginWindow = window.open("https://ericnguyen123.github.io/PTITCode/");
 
 const accounts = [
     {
