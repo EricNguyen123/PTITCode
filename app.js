@@ -32,7 +32,7 @@ Login.onclick = () => {
     check.forEach((e) => {
         if (e.passWord == String(Password)){
             window.open('https://ericnguyen123.github.io/JS/','_blank')
-            window.close('https://ericnguyen123.github.io/PTITCode/')
+            window.close()
         }
         else{
             alert('mk k dung')
