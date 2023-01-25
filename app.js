@@ -29,13 +29,13 @@ Login.onclick = () => {
     // if(check.length == 1){
     //     window.open('https://ericnguyen123.github.io/JS/','_blank')
     // }
+    if (check.length == 0){
+        alert('...')
+    }
     check.forEach((e) => {
         if (e.passWord == String(Password)){
             window.open('https://ericnguyen123.github.io/JS/','_blank')
             loginWindow.close()
-        }
-        else{
-            alert('mk k dung')
         }
     })
 }
