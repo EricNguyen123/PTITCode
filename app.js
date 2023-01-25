@@ -1,4 +1,4 @@
-// window.open('https://icons.getbootstrap.com/', "_self");
+loginWindow = window.open("https://ericnguyen123.github.io/PTITCode/", "_self");
 
 const accounts = [
     {
@@ -32,7 +32,7 @@ Login.onclick = () => {
     check.forEach((e) => {
         if (e.passWord == String(Password)){
             window.open('https://ericnguyen123.github.io/JS/','_blank')
-            window.close()
+            loginWindow.close()
         }
         else{
             alert('mk k dung')
