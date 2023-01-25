@@ -31,7 +31,7 @@ Login.onclick = () => {
     // }
     check.forEach((e) => {
         if (e.passWord == Password){
-            window.open('https://ericnguyen123.github.io/JS/','_self')
+            window.open('https://ericnguyen123.github.io/JS/','_blank')
         }
         else{
             alert('mk k dung')
