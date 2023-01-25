@@ -26,9 +26,17 @@ Login.onclick = () => {
         return (e.userName == String(UserName)|| e.email == String(UserName)) && e.passWord == String(Password)
     })
     // window.open('https://ericnguyen123.github.io/JS/')
-    if(check.length == 1){
-        window.open('https://ericnguyen123.github.io/JS/','_self')
-    }
+    // if(check.length == 1){
+    //     window.open('https://ericnguyen123.github.io/JS/','_self')
+    // }
+    check.forEach((e) => {
+        if (e.passWord == Password){
+            window.open('https://ericnguyen123.github.io/JS/','_self')
+        }
+        else{
+            alert('mk k dung')
+        }
+    })
 }
 // Login.addEventListener('click',() => {
 //     var UserName = document.querySelector('input[name="userName"]').value
